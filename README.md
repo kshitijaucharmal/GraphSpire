@@ -1,6 +1,14 @@
 # GraphSpire
 
+<div align="center">
+  <img src="assets/graphspire_banner.png" alt="GraphSpire Banner" width="800"/>
+</div>
+
 A tool to analyze and visualize C++ project dependencies. It generates beautiful dependency graphs from your C++ project's include statements.
+
+## Why GraphSpire?
+
+Ever found yourself lost in a maze of C++ includes? GraphSpire helps you navigate through complex C++ projects by generating clear, beautiful dependency graphs. Whether you're refactoring legacy code or starting a new project, GraphSpire gives you the bird's-eye view you need.
 
 ## Features
 
@@ -13,7 +21,7 @@ A tool to analyze and visualize C++ project dependencies. It generates beautiful
 - Customizable ignore patterns
 - Beautiful Catppuccin-themed visualizations
 
-## Installation
+## Quick Start
 
 ```bash
 # Install from PyPI
@@ -62,6 +70,8 @@ dot -Tpng -Gdpi=300 -Gsize=10,10 dependencies.dot -o graph.png
 
 ## Development
 
+Want to contribute? Awesome! Here's how to get started:
+
 1. Clone the repository
 2. Create a virtual environment:
    ```bash
@@ -76,3 +86,19 @@ dot -Tpng -Gdpi=300 -Gsize=10,10 dependencies.dot -o graph.png
    ```bash
    pytest
    ```
+
+## License
+
+MIT License - feel free to use this in your projects!
+
+## Contributing
+
+Found a bug? Have a feature request? Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
+<div align="center">
+  <img src="assets/graphspire_logo.png" alt="GraphSpire Logo" width="100"/>
+  <br/>
+  <sub>Built for the C++ community</sub>
+</div>
