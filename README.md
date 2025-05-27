@@ -20,7 +20,7 @@ A tool to analyze and visualize C++ project dependencies. It generates beautiful
 pip install graphspire
 
 # Or install from source
-git clone https://github.com/yourusername/graphspire.git
+git clone https://github.com/kshitijaucharmal/graphspire.git
 cd graphspire
 pip install -e .
 ```
