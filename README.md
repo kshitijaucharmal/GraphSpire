@@ -76,7 +76,3 @@ dot -Tpng -Gdpi=300 -Gsize=10,10 dependencies.dot -o graph.png
    ```bash
    pytest
    ```
-
-## License
-
-MIT License - see LICENSE file for details 
